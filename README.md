@@ -1,59 +1,35 @@
-# AngularPdfViewer
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.4.
+# [PDF.js](https://mozilla.github.io/pdf.js/) Angular Viewer: A Complete Guide
 
-## Development server
+<video src="demo.mp4" width="100%" autoplay controls loop muted>
+  Your browser does not support the video tag.
+</video>
 
-To start a local development server, run:
+This project demonstrates how to integrate PDF.js into an Angular application for rendering, navigating, and zooming PDF files. The setup includes creating an Angular component to load and display PDFs, along with features like page navigation and zoom functionality.
 
-```bash
-ng serve
-```
+## Features
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+- Render PDF documents using PDF.js.
+- Navigate between pages (previous/next).
+- Zoom in and out on the PDF content.
+- Configurable worker file for improved performance.
 
-## Code scaffolding
+You can read about the example project in our [blog post](https://pspdfkit.com/blog/2021/how-to-build-an-angular-pdf-viewer-with-pdfjs/).
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## Running the Project
 
 ```bash
-ng generate --help
+npm install # install dependencies
+
+ng serve # start dev server
 ```
 
-## Building
+Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-To build the project run:
+## Build
 
-```bash
-ng build
-```
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+## Contributing
 
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Please ensure [you have signed our CLA](https://pspdfkit.com/guides/web/current/miscellaneous/contributing/) so that we can accept your contributions.
